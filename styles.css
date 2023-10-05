@@ -1,0 +1,71 @@
+.intro {
+  text-align: center;
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 14pt;
+}
+
+#image-gallery {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#current-image {
+  width: 100%;
+}
+
+#image-thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#pic-gallery {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#current-pic {
+  width: 100%;
+}
+
+#pic-thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#mac-gallery {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#current-mac {
+  width: 100%;
+}
+
+#mac-thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
