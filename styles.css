@@ -11,6 +11,12 @@ h1 {
 
 h2 {
   font-size: 36px;
+  font-family: cursive;
+  color: black
+}
+
+a:hover {
+  color: magenta;
 }
 
 p {
@@ -18,7 +24,7 @@ p {
 }
 
 #image-gallery {
-  width: 600px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -33,7 +39,7 @@ p {
 }
 
 #pic-gallery {
-  width: 600px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -48,7 +54,7 @@ p {
 }
 
 #mac-gallery {
-  width: 600px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -63,9 +69,15 @@ p {
 }
 
 .thumb {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   margin-right: 10px;
   cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  padding: 5px 10px;
 }
